@@ -1,0 +1,31 @@
+.custom-checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-checkbox:checked {
+  background-color: #2252d6;
+  position: relative;
+}
+
+.custom-checkbox:checked::after {
+  content: '✓';
+  color: #fff;
+  font-size: 16px;
+}
+
+.table-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

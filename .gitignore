@@ -1,0 +1,16 @@
+# Node.js / Express
+node_modules/
+package-lock.json
+logs/
+/node/node_modules/
+/react-front/node_modules/
+
+
+# React
+client/node_modules/
+client/package-lock.json 
+client/build/
+client/.env.local
+
+# General
+.env

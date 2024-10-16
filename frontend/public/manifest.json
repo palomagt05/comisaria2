@@ -1,0 +1,26 @@
+{
+  "short_name": "Comisaria",
+  "name": "Comisaria de policia",
+  "description": "Sistema de información para gestionar la comisaría, reportes, y casos.",
+  "icons": [
+    {
+      "src": "coche.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "poli.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "policia.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1E3A8A",
+  "background_color": "#F3F4F6"
+}
